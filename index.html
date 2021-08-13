@@ -7,59 +7,119 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <style>
-        .col {
-            background-color: rgb(5, 143, 108);
-            border: 1px solid white;
-            height: 50px;
-        }
-    </style>
-    <title>Hello, world!</title>
+    <link href="./index.css" type="text/css" rel="stylesheet">
+    <title>Ranferi Pastelería</title>
   </head>
   <body>
-    <div class="container mt-3">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>   
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>   
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>  
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>  
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-    
 
+    <!-- Header -->
+    <header>
+      <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+        
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/LOGO-RANFERI-01.png" alt="Logo Ranferi"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ranferi Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-productos" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Pasteles Tradicionales</a></li>
+                    <li><a class="dropdown-item" href="#">Pasteles Veganos</a></li>
+                    <li><a class="dropdown-item" href="#">Pasteles Sugar-Free</a></li>
+                    <li><a class="dropdown-item" href="#">Pasteles a Tu Medida</a></li>
+                    <li><a class="dropdown-item" href="#">Galletas & Cupcakes</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">¡Haz tu Pedido!</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Eventos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ranferi Empresarial</a>
+                </li>
+                
+                
+              </ul>
+            </div>
+          </div>
+        
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/foto1 (1).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/foto1 (4).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/foto1 (5).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/foto1 (2).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Foto2 (1).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Foto2 (2).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Foto2 (3).jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <!-- Footer -->
+      <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-lg">
+                  <a href="#">Ranferi Home</a>
+                </div>
+                <div class="col-12 col-lg">
+                  <a href="#">Preguntas y Respuestas</a>
+                </div>
+                <div class="col-12 col-lg">
+                  <a href="#">¿Quiénes somos?</a>
+                </div>
+                <div class="col-12 col-lg">
+                  <a href="#">Eventos</a>
+                </div>
+                <div class="col-12 col-lg">
+                  <a href="#">Ranferi Empresarial</a>
+                </div>
+
+                
+            </div>
+        </div>   
+      </footer>
+    
 
 
 

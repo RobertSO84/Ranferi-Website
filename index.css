@@ -1,0 +1,42 @@
+/* Colores Ranferi */
+
+:root {
+
+--columbiablue: #D1E4E7;
+--lightcoral: #F28482;
+--gold: #BD9E56;
+--white: #FFFFFF;
+--blue: #3C91E6;
+--blackcoffee: #342E37;
+--green: #037971;
+
+}
+
+.text-productos {
+    color: var(--gold) !important;
+    font-weight: bold;
+    
+}
+
+#main .carousel-inner img {
+    max-height: 65vh;
+    object-fit: cover;
+}
+body {
+    height: 900px;
+    background-image: url("images/fondo\ instagram.jpg");
+}
+
+#header img {
+    width: 100px;
+}
+
+#footer {
+    background: var(--blackcoffee);
+    
+}
+
+#footer a {
+    color: var(--white);
+    text-decoration: none;
+}
