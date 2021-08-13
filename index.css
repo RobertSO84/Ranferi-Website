@@ -23,16 +23,66 @@
     object-fit: cover;
 }
 body {
+    font-family: 'Bebas Neue', cursive;
     height: 900px;
     background-image: url("images/fondo\ instagram.jpg");
 }
 
-#header img {
-    width: 100px;
+#header {
+    font-size: 2.5vh;
 }
+#header img {
+    width: 140px;
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#carousel .overlay h1 {
+    font-size: 11vh;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--columbiablue)
+}
+
+#carousel .overlay p {
+    font-size: 5vh;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--columbiablue)
+}
+
+#btn-pedido {
+    background-color: var(--columbiablue);
+    color: var(--blackcoffee) !important;
+    border: none;
+}
+
+#btn-pedido:hover {
+    background-color: #b3d7db;
+    color: var(--blackcoffee);
+    font-weight: bold;
+}
+
 
 #footer {
     background: var(--blackcoffee);
+    font-size: 2.5vh;
     
 }
 
