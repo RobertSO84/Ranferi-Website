@@ -11,6 +11,10 @@
 --green: #037971;
 
 }
+html {
+    scroll-behavior: smooth;
+}
+
 
 .text-productos {
     color: var(--gold) !important;
